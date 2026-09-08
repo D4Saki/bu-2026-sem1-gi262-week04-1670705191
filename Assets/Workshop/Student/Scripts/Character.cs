@@ -82,8 +82,8 @@ namespace Solution
 
         public void Heal(int healPoint)
         {
-            // energy += healPoint;
-            // Debug.Log("Current Energy : " + energy);
+             energy += healPoint;
+             Debug.Log("Current Energy : " + energy);
             // เราสามารถเรียกใช้ฟังก์ชัน Heal โดยกำหนดให้ Bonuse = false ได้ เพื่อที่จะให้ logic ในการ heal อยู่ที่ฟังก์ชัน Heal อันเดียวและไม่ต้องเขียนซ้ำ
             Heal(healPoint, false);
         }
