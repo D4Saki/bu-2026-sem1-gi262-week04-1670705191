@@ -8,6 +8,7 @@ namespace Solution
         {
             Debug.Log("Item: " + Name + " has been picked up.");
             // ทำลายไอเท็มออกจากฉาก
+            Destroy(gameObject);
 
             return true;
         }
